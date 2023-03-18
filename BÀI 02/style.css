@@ -16,22 +16,22 @@ body{
   
        
   }
-  .star ul{
+  ul{
       list-style: none;
       margin-left: 1100px;
   }
   
-  .star li{
+  li{
       display: inline-block;
   }
   
-  .star a{
+  a{
       text-decoration: none;
       font-size: 20px;
       margin-left: 50px;
       color: aliceblue;
   }
-  .star a:hover{
+  a:hover{
       color: aqua;
   }
   
