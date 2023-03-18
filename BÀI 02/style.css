@@ -12,10 +12,18 @@ body{
       color: rgb(237, 237, 237);
       background: rgb(129, 129, 129);
       margin: 10px auto;  
-  border-bottom: 5px solid rgb(44, 42, 42);
-  
-       
+  border-bottom: 5px solid rgb(44, 42, 42);     
   }
+nav{
+    text-align: center;
+    margin-left: 800px;
+    margin-top: -45px;
+}
+nav li{
+   display: inline-block;
+   
+
+}
   ul{
       list-style: none;  
   }
