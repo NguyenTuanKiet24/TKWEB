@@ -1,91 +1,94 @@
 body{
     font: 15px/1.5 Arial, Helvetica,sans-serif;
-    padding: 0;
-    margin: 0;
-    background-color: #f4f4f4;
-}
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+  }
 
 /* Global */
 .container{
-    margin: 0 10%;
+  margin-left: 90px;
+  
+
 }
 
 ul{
-    list-style: none;
-    margin-left: -40px;
+margin-top: -10px;
 }
-
-
 
 /* Header **/
 header{
-    background: #FF66FF;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: 3px solid black;
-    color: white;
+  background:#000000;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:red 3px solid;
 }
 
 header a{
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
+  color:yellow ;
+  text-decoration:inherit;
+  text-transform:uppercase ;
+  font-size:auto;
 }
 
 header li{
-    float: none;
-    display: inline-block;
-    padding: 20px;
+  float:right;
+  display: inline-block;
+  padding: 15px;
 }
 
 header #branding{
-    float: none;
+  float:left;
 }
 
 header #branding h1{
-    margin: 10px;
+  margin: 5px;
+  font-size: 35px;
 }
 
 header nav{
-    float: right;
-    margin-top: -80px;
+  float:right;
+  margin-top:18px;
 }
 
 header .highlight, header .current a{
-    color: aqua;
-    font-weight: 20px;
+  color:blueviolet;
+  font-weight: 20px;
+  
 }
 
 header a:hover{
-    color: black;
-    font-weight: 20px;
+  color:rgb(12, 12, 12);
+  font-weight:20px;
 }
 
 /* Showcase */
 #showcase{
-  background-image: url('/img/showcase.jpg');
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  padding: 8%;
+  
+  background-image:url("https://vongocnghia13.github.io/Ma%20nguon%20cac%20bai%20tap%20(1)/Ma%20nguon%20cac%20bai%20tap/EX06/img/showcase.jpg");
+  color:#ffffff;
+  padding-top:100px;
+  min-height:300px;
+  
 }
 
 #showcase h1{
-  color: white;
-  font-size: 50px;
+  text-align: center;
+  font-size: 40px;
+
 }
 
 #showcase p{
-  color: white;
-  font-size: 20px;
+  text-align: center;
+  font-size: x-large;
 }
 
 
 footer{
-    background-color: aqua;
-    padding: 20px;
-    margin-top: 20px;
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:#e8491d;
     text-align: center;
-    color: black
-}
+  }
