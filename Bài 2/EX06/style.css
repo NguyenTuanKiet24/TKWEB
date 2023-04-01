@@ -18,7 +18,7 @@ margin-top: -10px;
 
 /* Header **/
 header{
-  background:#000000;
+  background:#6d6b6b;
   color:#ffffff;
   padding-top:30px;
   min-height:70px;
@@ -29,7 +29,7 @@ header a{
   color:yellow ;
   text-decoration:inherit;
   text-transform:uppercase ;
-  font-size:auto;
+  font-size: 20px;
 }
 
 header li{
@@ -53,7 +53,7 @@ header nav{
 }
 
 header .highlight, header .current a{
-  color:blueviolet;
+  color:rgb(49, 188, 207);
   font-weight: 20px;
   
 }
