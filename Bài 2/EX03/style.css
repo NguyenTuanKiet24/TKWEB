@@ -1,23 +1,24 @@
 body{
-    background-color: bisque;
-    font-family: arial,'Times New Roman', Times, serif;
+     font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
 }
 
 
 /* Header **/
 header{
-    padding: 15px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    color: rgb(237, 237, 237);
-    background: rgb(129, 129, 129);
-    margin: 10px auto;  
-border-bottom: 5px solid rgb(44, 42, 42); 
+    background: #499de6;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 3px solid black;
+    color: white;
 }
 
 footer{
-    background: gray;
-    color: black;
-    padding: 15px;
+   background-color: aqua;
+    padding: 20px;
+    margin-top: 20px;
     text-align: center;
+    color: black;
 }
